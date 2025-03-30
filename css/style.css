@@ -1,0 +1,117 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background: #E6F8FA;
+}
+
+a {
+	color: #AA9900;
+}
+
+h1 a, h2 a, h3 a, h4 a, h5 a {
+	text-decoration: none;
+}
+
+#page, header nav>div, footer>div {
+	margin: 0 auto;
+	max-width: 1200px;
+}
+
+#page {
+	background-color: #fff;
+	box-shadow: 0 0 2rem rgba(135, 215, 190, .3);
+}
+
+main, header>nav, footer>div, #page>div {
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: .5em 2em;
+}
+
+#nav1, footer {
+	background-color: #475718;
+}
+
+#nav1 {
+	text-align: right;
+}
+
+#nav1>div>ul {
+	 margin:0 0 0 auto;
+}
+
+#nav1 A.nav-link {
+	color: #fff;
+	border-color: #fff;
+	border-width: 1px;
+}
+
+#nav2 {
+	background-color: #fff;
+}
+
+#page #jumbotron {
+	overflow: hidden;
+	text-align: center;
+	padding: 0;
+}
+
+footer {
+	margin-top: 1em;
+}
+
+footer p {
+	color: #fff;
+	opacity: 0.6;
+	width: 100%;
+	text-align: center;
+}
+
+footer p a {
+	color: inherit;
+}
+
+.mod-dpcalendar-upcoming-horizontal__group {
+	padding: 0 1em;
+}
+
+.mod-dpcalendar-upcoming-horizontal__information {
+	border-width: 0 0 0 4px;
+	border-style: solid;
+	padding: 0 1em;
+}
+
+.mod-dpcalendar-upcoming-horizontal__date {
+    padding: 2px 0;
+    font-style: normal;
+}
+
+.mod-dpcalendar-upcoming-horizontal H2{
+	font-size:1em;
+		color:#888;
+}
+
+.dp-location__title {
+	color:#888;
+}
+
+.dp-link {
+	text-decoration:none;	
+}
+
+.card {
+	overflow: hidden
+}
+
+.card-img-top {
+	height: 250px;
+	width: 100%;
+	object-fit:cover;
+	margin: auto;
+}
+
+.card-title {
+	font-size: 1.25em;
+	font-weight:600;
+}

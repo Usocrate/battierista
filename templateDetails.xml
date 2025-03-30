@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="template" client="site">
+    <name>battierista</name>
+    <creationDate>2025-02</creationDate>
+    <author>battierista</author>
+    <authorEmail>battierista@gmail.com</authorEmail>
+  	<version>0.0.1</version>
+  	<files>
+    	<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<folder>images</folder>
+		<folder>css</folder>
+    	<folder>images</folder>
+  	</files>
+  	<positions>
+  		<position>header-nav1-menu</position>
+  		<position>header-nav2-menu</position>
+  		<position>jumbotron</position>
+  		<position>focus</position>
+		<position>main</position>
+		<position>more</position>
+		<position>footer</position>
+  	</positions>
+</extension>
